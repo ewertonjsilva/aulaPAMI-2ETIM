@@ -7,12 +7,14 @@ import Constants from 'expo-constants';
 // npm i react-native-responsive-fontsize
 
 import Exemplo1 from './src/exemplos/ex_01'; 
+import Exemplo2 from './src/exemplos/ex_02';
+
 import Atividade1 from './src/atividades/atv_01';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade1 />
+      <Exemplo2 />
       <StatusBar style="auto" />
     </View>
   );
