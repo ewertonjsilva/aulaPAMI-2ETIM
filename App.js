@@ -19,7 +19,7 @@ import Atividade4 from './src/atividades/atv_04';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo4 />
+      <Exemplo2 />
       <StatusBar style="auto" />
     </View>
   );
@@ -35,3 +35,4 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
   },
 });
+
