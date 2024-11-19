@@ -1,15 +1,16 @@
 import { StyleSheet } from 'react-native';  
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     input: {
-        height: 80, 
+        height: RFValue(75), 
         textAlign: 'center', 
         width: '50%', 
         color: '#eee', 
-        fontSize: 50, 
+        fontSize: RFValue(46), 
         backgroundColor: '#aaa', 
-        borderRadius: 20, 
-        margin: 5, 
+        borderRadius: RFValue(18), 
+        margin: RFValue(5), 
     }, 
 }); 
 

@@ -1,11 +1,12 @@
 import { StyleSheet } from 'react-native'; 
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     botao: {
         backgroundColor: '#b3e5fc', 
-        padding: 12, 
+        padding: RFValue(12), 
         borderColor: '#81d4fa', 
-        borderBottomWidth: 2, 
+        borderBottomWidth: RFValue(2), 
         flexDirection: 'row', 
         alignItems: 'center', 
         justifyContent: 'space-between'
@@ -14,7 +15,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#e1f5fe',
     }, 
     txtNome: {
-        fontSize: 22, 
+        fontSize: RFValue(20), 
         color: '#01579b', 
     }, 
 }); 

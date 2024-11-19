@@ -1,13 +1,14 @@
 import { Dimensions, StyleSheet } from 'react-native';
-import { RFPercentage } from 'react-native-responsive-fontsize';
+import { RFPercentage } from 'react-native-responsive-fontsize'; 
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     button: {
         height: (Dimensions.get('window').height / 6) - 9,
         width: (Dimensions.get('window').width / 4) - 9,
-        padding: 10,
+        padding: RFValue(10),
         backgroundColor: '#f0f0f0', 
-        borderWidth: 1,
+        borderWidth: RFValue(1),
         borderColor: '#888', 
         justifyContent: 'center', 
     }, 

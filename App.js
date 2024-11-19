@@ -10,6 +10,10 @@ import Exemplo1 from './src/exemplos/ex_01';
 import Exemplo2 from './src/exemplos/ex_02';
 import Exemplo3 from './src/exemplos/ex_03';
 import Exemplo4 from './src/exemplos/ex_04';
+import Exemplo5 from './src/exemplos/ex_05';
+import Exemplo6 from './src/exemplos/ex_06';
+import Exemplo7 from './src/exemplos/ex_07';
+import Exemplo8 from './src/exemplos/ex_08';
 
 import Atividade1 from './src/atividades/atv_01';
 import Atividade2 from './src/atividades/atv_02';
@@ -19,7 +23,7 @@ import Atividade4 from './src/atividades/atv_04';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo2 />
+      <Exemplo8 />
       <StatusBar style="auto" />
     </View>
   );

@@ -1,26 +1,27 @@
 import { StyleSheet } from    'react-native'; 
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     input: {
-        height: 60, 
-        padding: 8, 
-        fontSize: 20, 
+        height: RFValue(60), 
+        padding: RFValue(8), 
+        fontSize: RFValue(18), 
     }, 
     botao: {
         backgroundColor: '#81d4fa', 
-        padding: 10, 
-        margin: 10, 
+        padding: RFValue(10), 
+        margin: RFValue(10), 
     }, 
     btnPress: {
         backgroundColor: '#b3e5fc',
     }, 
     txtBotao: {
         color: '#01579b', 
-        fontSize: 25, 
+        fontSize: RFValue(23), 
         textAlign: 'center',         
     }, 
     icone: {
-        paddingRight: 10,
+        paddingRight: RFValue(10),
     }, 
 });
 

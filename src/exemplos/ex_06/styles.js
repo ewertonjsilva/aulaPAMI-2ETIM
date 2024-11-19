@@ -1,33 +1,34 @@
 import { StyleSheet } from 'react-native'; 
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
         width: '100%', 
         backgroundColor: '#eee', 
-        padding: 8, 
+        padding: RFValue(12), 
         alignItems: 'center', 
-        borderRadius: 20, 
+        borderRadius: RFValue(20), 
         justifyContent: 'space-between', 
     }, 
     titulo: {
-        margin: 6, 
-        fontSize: 30, 
+        margin: RFValue(6), 
+        fontSize: RFValue(28), 
         fontWeight: 'bold', 
         color: '#aaa', 
     }, 
     ladoalado: {
         flexDirection: 'row', 
-        marginVertical: 30, 
+        marginVertical: RFValue(30), 
     }, 
     imc: {
         color: 'lightgray', 
-        fontSize: 65, 
-        marginVertical: 15, 
+        fontSize: RFValue(60), 
+        marginVertical: RFValue(15), 
         textAlign: 'center', 
     }, 
     txtMensagem: {
-        fontSize: 40,
+        fontSize: RFValue(37),
     }
 });
 
