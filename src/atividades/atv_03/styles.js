@@ -1,13 +1,14 @@
 import { StyleSheet } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
         backgroundColor: '#fafafa', 
         width: '100%', 
-        borderRadius: 20, 
+        borderRadius: RFValue(20), 
         alignItems: 'center', 
-        padding: 20, 
+        padding: RFValue(20), 
     }, 
     titulo: {
         fontSize: 30, 
@@ -15,22 +16,22 @@ const styles = StyleSheet.create({
     }, 
     botao: {
         width: '80%', 
-        padding: 10, 
-        margin: 20, 
+        padding: RFValue(10), 
+        margin: RFValue(20), 
         backgroundColor: '#000', 
         alignItems: 'center', 
         justifyContent: 'center', 
-        borderRadius: 20, 
+        borderRadius: RFValue(20), 
     }, 
     txtBotao: {
-        fontSize: 25, 
+        fontSize: RFValue(22), 
         color: '#fafafa', 
     }, 
     containerLadoLado: {
         // borderWidth: 3, 
         width: '80%', 
         // height: 200, 
-        marginTop: 20, 
+        marginTop: RFValue(20), 
         flexDirection: 'row', 
         justifyContent: 'space-between', 
         alignItems: 'center', 

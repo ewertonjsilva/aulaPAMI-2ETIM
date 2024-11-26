@@ -14,16 +14,19 @@ import Exemplo5 from './src/exemplos/ex_05';
 import Exemplo6 from './src/exemplos/ex_06';
 import Exemplo7 from './src/exemplos/ex_07';
 import Exemplo8 from './src/exemplos/ex_08';
+import Exemplo9 from './src/exemplos/ex_09';
 
 import Atividade1 from './src/atividades/atv_01';
 import Atividade2 from './src/atividades/atv_02';
 import Atividade3 from './src/atividades/atv_03';
 import Atividade4 from './src/atividades/atv_04';
+import Atividade5 from './src/atividades/atv_05';
+import Atividade6 from './src/atividades/atv_06';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo8 />
+      <Exemplo9 />
       <StatusBar style="auto" />
     </View>
   );
